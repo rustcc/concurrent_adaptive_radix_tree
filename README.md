@@ -2,6 +2,8 @@
 
 Simd+concurrent implementation of adaptive radix tree.
 
+SIMD is using rust std's portable SIMD, which is currently only available on nightly, and adopts to any instruction sets that LLVM simd supports.
+
 ```rust
 use concurrent_adaptive_radix_tree::ARTMap;
 

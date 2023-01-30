@@ -2,6 +2,7 @@
 name = "concurrent_adaptive_radix_tree"
 version = "0.1.0"
 edition = "2021"
-authors = ["Yiwei Yang <yangyiwei2000@gmail.com>"]
+authors = ["LemonHX <lemonhx@lemonhx.moe>", "Yiwei Yang <yangyiwei2000@gmail.com>"]
 
 [dependencies]
+smallvec = {version = "1.10",features = ["union", "const_new", "const_generics", "specialization"]}
